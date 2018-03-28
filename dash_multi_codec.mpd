@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MPD id="4292cdda-3f7a-4163-b196-c0a2b991e7c3" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264" type="static" mediaPresentationDuration="P0Y0M0DT0H3M30.280S" minBufferTime="P0Y0M0DT0H0M2.000S" bitmovin:version="1.17.0" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:bitmovin="http://www.bitmovin.net/mpd/2015" xmlns:ns2="http://www.w3.org/1999/xlink">
+    <Period id="22cfab50-88f6-4a4a-ad5b-23b9cfa5d6df" start="P0Y0M0DT0H0M0.000S" bitmovin:label="22cfab50-88f6-4a4a-ad5b-23b9cfa5d6df">
+        <AdaptationSet mimeType="video/mp4">
+            <Representation id="2343aaef-15c9-49f2-9ea0-900584529f4b" bandwidth="350000" width="320" height="180" frameRate="25" codecs="avc1.4D000d">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/180p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/180p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="d49bb7e3-cf63-4445-9fb3-a183a65370da" bandwidth="650000" width="480" height="270" frameRate="25" codecs="avc1.4D0015">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/270p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/270p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="196da00d-992c-4282-8a7d-5e38abb1eede" bandwidth="1000000" width="640" height="360" frameRate="25" codecs="avc1.4D001e">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/360p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/360p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="f59576c6-ca7d-46e7-a9f7-a0842e40ccb3" bandwidth="1500000" width="854" height="480" frameRate="25" codecs="avc1.4D001e">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/480p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/480p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="21a80abf-8e51-43d4-b359-c9256ef6b230" bandwidth="3000000" width="1280" height="720" frameRate="25" codecs="avc1.4D001f">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/720p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/720p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="1a2c110d-d350-4854-b4bf-51fb4464ae7d" bandwidth="5000000" width="1920" height="1080" frameRate="25" codecs="avc1.4D0032">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/1080p_1/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/1080p_1/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="5e31b878-bf94-44d9-bcf4-5630458fb8ca" bandwidth="8000000" width="1920" height="1080" frameRate="25" codecs="avc1.4D0032">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/1080p_2/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/video/1080p_2/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet lang="en" mimeType="audio/mp4">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <Representation id="bfbf687e-30c9-4efd-9b50-af8ecaf438b1" bandwidth="128000" audioSamplingRate="48000" codecs="mp4a.40.2">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/audio/128kbps/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/h264/audio/128kbps/init.mp4" duration="192000" startNumber="0" timescale="48000"/>
+            </Representation>
+        </AdaptationSet>
+
+        <AdaptationSet mimeType="video/mp4">
+            <Representation id="287b2307-6ab4-425a-a3f5-13c6ed441c7a" bandwidth="175000" width="320" height="180" frameRate="25" codecs="hvc1.1.c.L60.90">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/180p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/180p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="26ed9bfd-420b-4058-9ce9-4e3fa89bb7bc" bandwidth="325000" width="480" height="270" frameRate="25" codecs="hvc1.1.c.L63.90">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/270p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/270p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="dd337950-40cc-480b-ba7d-16779f6a434f" bandwidth="500000" width="640" height="360" frameRate="25" codecs="hvc1.1.c.L63.90">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/360p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/360p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="0205769a-d628-4c76-8806-b93c222526a4" bandwidth="750000" width="854" height="480" frameRate="25" codecs="hvc1.1.c.L90.90">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/480p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/480p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="33fdc520-84e3-45e2-b691-605980e20d05" bandwidth="1500000" width="1280" height="720" frameRate="25" codecs="hvc1.1.c.L93.90">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/720p/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/720p/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="f5835b06-863e-488b-b6ed-40bb60d84e5e" bandwidth="2500000" width="1920" height="1080" frameRate="25" codecs="hvc1.1.c.L120.90">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/1080p_1/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/1080p_1/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="c230a03e-d97d-4881-a935-7c213b07e4ae" bandwidth="4000000" width="1920" height="1080" frameRate="25" codecs="hvc1.1.c.L120.90">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/1080p_2/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/video/1080p_2/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet lang="en" mimeType="audio/mp4">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <Representation id="c93ea966-ba6b-42d0-9892-45185c4e61d0" bandwidth="128000" audioSamplingRate="48000" codecs="mp4a.40.2">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/audio/128kbps/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/hevc/audio/128kbps/init.mp4" duration="192000" startNumber="0" timescale="48000"/>
+            </Representation>
+        </AdaptationSet>
+
+        <AdaptationSet mimeType="video/webm">
+            <Representation id="d54d3bb5-bfe6-4234-b2eb-e268bb4d7a54" bandwidth="245000" width="320" height="180" frameRate="25" codecs="vp9">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/180p/segment_$Number$.chk" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/180p/init.hdr" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="884fde71-e73d-4bea-8ecf-19818e3252f7" bandwidth="455000" width="480" height="270" frameRate="25" codecs="vp9">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/270p/segment_$Number$.chk" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/270p/init.hdr" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="e220ff61-2f08-4229-9a6f-c6583822e11a" bandwidth="700000" width="640" height="360" frameRate="25" codecs="vp9">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/360p/segment_$Number$.chk" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/360p/init.hdr" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="d1d34103-657b-474e-a6f8-d4223577cc88" bandwidth="1050000" width="854" height="480" frameRate="25" codecs="vp9">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/480p/segment_$Number$.chk" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/480p/init.hdr" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="ebc782bc-7f7f-4528-a7e3-933abce1f232" bandwidth="2100000" width="1280" height="720" frameRate="25" codecs="vp9">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/720p/segment_$Number$.chk" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/720p/init.hdr" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="e0b497c3-8308-47b0-ae1f-83afe895f801" bandwidth="3500000" width="1920" height="1080" frameRate="25" codecs="vp9">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/1080p_1/segment_$Number$.chk" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/1080p_1/init.hdr" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+            <Representation id="e809119d-f618-42be-b61a-66f74610cb0c" bandwidth="5600000" width="1920" height="1080" frameRate="25" codecs="vp9">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/1080p_2/segment_$Number$.chk" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/video/1080p_2/init.hdr" duration="100000" startNumber="0" timescale="25000"/>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet lang="en" mimeType="audio/mp4">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <Representation id="a9fedde9-e832-4bc9-806e-367c3f107c07" bandwidth="128000" audioSamplingRate="48000" codecs="mp4a.40.2">
+                <SegmentTemplate media="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/audio/128kbps/segment_$Number$.m4s" initialization="https://bitmovin-a.akamaihd.net/content/multi-codec/vp9/audio/128kbps/init.mp4" duration="192000" startNumber="0" timescale="48000"/>
+            </Representation>
+        </AdaptationSet>
+
+
+    </Period>
+</MPD>
