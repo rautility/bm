@@ -5,10 +5,12 @@
 *Features*
 - Bitmovin HTML-5 Player
 - Google IMA pre-roll, skippable
-- Multi-codec selection
-- Bitmovin Analytic on Player via Events
-- Bitmovin Analytic Javascript API Client
+- Bitmovin Player multi-codec selection
+- Bitmovin Player Events
+- Bitmovin Analytic queries via Javascript API Client
 
 ![alt text](http://inventory.cloopband.com/Bitmovin_exercise.png)
+
+![alt text](http://inventory.cloopband.com/Bitmovin_exercise2.png)
 
 
