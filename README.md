@@ -9,6 +9,6 @@
 - Bitmovin Analytic on Player via Events
 - Bitmovin Analytic Javascript API Client
 
-![alt text](http://inventory.cloopband.com/Bitmovin_ecercise.png)
+![alt text](http://inventory.cloopband.com/Bitmovin_exercise.png)
 
 
