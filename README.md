@@ -1,4 +1,4 @@
-# Bitmovin MultiCodec Player Exercise
+# Bitmovin MultiCodec Player Example
 #### Raul V 
 #### 27-Mar-2018
 
